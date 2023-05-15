@@ -1,15 +1,14 @@
 import subprocess
 import time
 
-#Entorno Virtual
-print("\033[1;34m"+"Creando entorno virtual..."+"\033[0;m")
+#Virtual environemnt
+print("\033[1;34m"+"Creating virtual environment..."+"\033[0;m")
 subprocess.run(['py','-m','venv','venv'])
-print("\033[1;34m"+"Entorno virtual creado"+"\033[0;m")
-time.sleep(4)
+print("\033[1;34m"+"Virtual environment created"+"\033[0;m")
+time.sleep(3)
 
-#Inicio repositorio
-print("\033[1;34m"+"Iniciando repositorio..."+"\033[0;m")
+
+#Begin repository
+print("\033[1;34m"+"Starting repository..."+"\033[0;m")
 subprocess.run(['git','init'])
-print("\033[1;34m"+"Repositorio inciado"+"\033[0;m")
-
-print("\033[1;34m"+"Proyecto configurado"+"\033[0;m")
+print("\033[1;34m"+"Repository ready"+"\033[0;m")
